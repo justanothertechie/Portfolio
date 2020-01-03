@@ -7,7 +7,7 @@ public_folder: "uploads"
 
 collections:
   - name: "Blogs"
-    lable: "blog"
+    lable: "posts"
     folder: "content/posts"
     create: true
     slug: "{{year}}-{{slug}}"
