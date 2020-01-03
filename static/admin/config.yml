@@ -1,0 +1,11 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "static/uploads"
+public_folder: "uploads"
+
+collections:
+  - name: "Coding"
+    label: "Blog" 
+    create: true
