@@ -2,8 +2,6 @@
 title = "English"
 date = "2014-04-09"
 aliases = ["Ok-us","Si-hugo","contact"]
-[ author ]
-  name = "Hugo Authors"
 draft: true
 +++
 
