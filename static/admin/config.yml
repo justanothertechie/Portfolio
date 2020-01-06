@@ -6,11 +6,12 @@ media_folder: "static/uploads"
 public_folder: "uploads"
 
 collections:
-  - name: "Blogs"
+  - name: "posts"
     lable: "posts"
     folder: "content/posts"
     create: true
-    slug: "{{year}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
-      - {lable: "Title", name: "title", widget: "string", required: true}
-      - {lable: "Date", name: "date", required: false}
+      - {lable: "Title", name: "title", widget: "string"}
+      - {lable: "Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
