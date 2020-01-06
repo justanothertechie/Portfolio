@@ -9,7 +9,7 @@ theme = "hello-friend-ng"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Metadata mostly used in document's head
   description = "Homepage and blog by Sidd"
@@ -28,7 +28,7 @@ theme = "hello-friend-ng"
     subtitle = "Just another techie"
     keywords = ""
     copyright = ""
-    readOtherPosts = "Read other posts"
+    # readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
       logoText = "$ cd /home/"
@@ -67,7 +67,7 @@ theme = "hello-friend-ng"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    url  = "https://www.linkedin.com/in/siddharth28m"
 
   [[params.social]]
     name = "stackoverflow"
