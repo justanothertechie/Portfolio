@@ -56,7 +56,7 @@ theme = "hello-friend-ng"
     [[menu.main]]
     identifier = "resume"
     name       = "resume"
-    url        = "http://blog.exitbee.com/wp-content/uploads/2016/10/coming-soon-landing-page.gif"
+    url        = "/resume/sidd_resume.pdf"
     weight     = "95"
 
   # Social icons
