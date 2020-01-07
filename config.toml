@@ -12,7 +12,7 @@ theme = "hello-friend-ng"
   disableReadOtherPosts = true
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Sidd"
+  description = "Blog by Sidd"
   keywords = "homepage, blog, science, informatics, development, programming"
   images = [""]
 
@@ -26,6 +26,7 @@ theme = "hello-friend-ng"
   [languages.en]
     title = "Call me Sidd"
     subtitle = "Just another techie"
+    homeSubtitle = "Information Security Consultant"
     keywords = ""
     copyright = ""
     # readOtherPosts = "Read other posts"
@@ -50,6 +51,12 @@ theme = "hello-friend-ng"
     identifier = "about"
     name       = "about"
     url        = "/about/"
+    weight     = "95"
+
+    [[menu.main]]
+    identifier = "resume"
+    name       = "resume"
+    url        = "http://blog.exitbee.com/wp-content/uploads/2016/10/coming-soon-landing-page.gif"
     weight     = "95"
 
   # Social icons
