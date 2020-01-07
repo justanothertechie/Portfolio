@@ -26,7 +26,7 @@ theme = "hello-friend-ng"
   [languages.en]
     title = "Call me Sidd"
    # subtitle = ""
-    homeSubtitle = "The thought of nothing is secure is what wakes me up in the morning."
+    homeSubtitle = "The thought that nothing is secure is what keeps me awake at night."
     keywords = ""
     copyright = ""
     # readOtherPosts = "Read other posts"
